@@ -10,7 +10,7 @@ A collection of empirical macroeconomics and data science projects comparing mon
 | :--- | :--- | :--- | :--- |
 | [`fedfunds_selic_regression.py`](./fedfunds_selic_regression.py) | Econometric OLS regression analyzing the relationship and rate transmission between the US Fed Funds rate and Brazil's Selic rate | Python, `statsmodels`, `pandas`, FRED API, BCB SGS API | Completed |
 | [`central_bank_sentiment/`](./central_bank_sentiment/) | Bilingual NLP pipeline scoring hawkish/dovish policy tone in FOMC (English) and COPOM (Portuguese) statements against actual rate moves | Python, `BeautifulSoup`, `pandas`, `matplotlib`, Fed & BCB APIs | Completed |
-| `usd_brl_modeling/` | Time-series and machine learning models testing how interest rate differentials, inflation spreads (CPI vs. IPCA), and commodities drive USD/BRL | Python, `scikit-learn`, `statsmodels` | Planned |
+| [`usd_brl_modeling/`](./usd_brl_modeling/) | Time-series and machine learning models testing how interest rate differentials, inflation spreads (CPI vs. IPCA), and commodities drive USD/BRL | Python, `scikit-learn`, `statsmodels` | Completed |
 | `inequality_labor_dynamics/` | Comparative analysis of Gini trajectories, real wage dispersion, and demographic labor trends across the US and Brazil | R (`tidyverse`, `ggplot2`), World Bank, FRED, IBGE | Planned |
 
 ---
