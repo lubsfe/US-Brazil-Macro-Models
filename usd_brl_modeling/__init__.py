@@ -1,0 +1,1 @@
+"""USD/BRL econometric factor modeling and walk-forward ML backtesting package."""
