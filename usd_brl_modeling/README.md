@@ -36,10 +36,8 @@ All series are fetched starting in `2014-01-01`—providing a 12-month lookback 
 | **Global Commodities Index** | FRED `PALLFNFINDEXM` | IMF All Commodities monthly log return (lagged 1M in predictive models) |
 
 ### Derived Carry Spreads
-* **Nominal Carry Differential:** $\text{rate\_diff}_t = \text{Selic}_t - \text{FedFunds}_t$
-* **Ex-Post Real Carry Differential:** $\text{real\_rate\_diff}_t = (\text{Selic}_t - \text{IPCA}_{t}^{\text{YoY}}) - (\text{FedFunds}_t - \text{CPI}_{t}^{\text{YoY}})$
-
----
+* **Nominal Carry Differential:** $\text{rate\_diff}_{t} = \text{Selic}_{t} - \text{FedFunds}_{t}$
+* **Ex-Post Real Carry Differential:** $\text{real\_rate\_diff}_{t} = (\text{Selic}_{t} - \text{IPCA}_{t}^{\text{YoY}}) - (\text{FedFunds}_{t} - \text{CPI}_{t}^{\text{YoY}})$
 
 ## 4. Empirical Results
 
